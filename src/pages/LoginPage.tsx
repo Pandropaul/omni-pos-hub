@@ -38,17 +38,17 @@ const LoginPage = () => {
           <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
             <ShoppingCart className="w-5 h-5 text-primary-foreground" />
           </div>
-          <span className="text-xl font-bold text-sidebar-accent-foreground">POSCloud</span>
+          <span className="text-xl font-bold text-sidebar-accent-foreground">KashaPOS</span>
         </div>
         <div className="space-y-4">
           <h1 className="text-4xl font-bold text-sidebar-accent-foreground leading-tight">
-            The all-in-one POS<br />for modern commerce
+            Your Business,<br />In One Place
           </h1>
           <p className="text-sidebar-foreground text-lg max-w-md">
             Manage inventory, sales, purchases, and multi-branch operations from a single powerful platform.
           </p>
         </div>
-        <p className="text-sidebar-muted text-sm">© 2026 POSCloud. All rights reserved.</p>
+        <p className="text-sidebar-muted text-sm">© 2026 KashaPOS. All rights reserved.</p>
       </div>
 
       {/* Right panel - login form */}
@@ -58,7 +58,7 @@ const LoginPage = () => {
             <div className="w-9 h-9 rounded-lg bg-primary flex items-center justify-center">
               <ShoppingCart className="w-4 h-4 text-primary-foreground" />
             </div>
-            <span className="text-lg font-bold">POSCloud</span>
+            <span className="text-lg font-bold">KashaPOS</span>
           </div>
 
           <h2 className="text-2xl font-bold mb-1">Sign in</h2>

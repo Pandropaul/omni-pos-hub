@@ -63,7 +63,7 @@ const AppSidebar = ({ collapsed, onToggle }: AppSidebarProps) => {
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
               <ShoppingCart className="w-4 h-4 text-primary-foreground" />
             </div>
-            <span className="font-bold text-sidebar-accent-foreground text-sm">POSCloud</span>
+            <span className="font-bold text-sidebar-accent-foreground text-sm">KashaPOS</span>
           </div>
         )}
         <button onClick={onToggle} className="p-1.5 rounded-md text-sidebar-foreground hover:bg-sidebar-accent">
